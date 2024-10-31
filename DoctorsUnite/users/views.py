@@ -4,4 +4,4 @@ from . import urls
 # Create your views here.
 
 def home(request):
-    return HttpResponse ("<h1> xyz</h1> ")
+    return render(request, 'base.html')
