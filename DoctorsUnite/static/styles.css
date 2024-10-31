@@ -1,0 +1,195 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f8fa;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #004d66;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #009688;
+    color: #ffffff;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #004d66;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #003d52;
+}
+
+
+/* About Us Section Styling */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #004d66;
+    margin-bottom: 10px;
+}
+
+/* Services Section Styling */
+.services {
+    padding: 40px 20px;
+    background-color: #e7f3f9;
+    text-align: center;
+}
+
+.services h2 {
+    color: #004d66;
+    margin-bottom: 20px;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.service-box h3 {
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+/* Departments Section Styling */
+.departments {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.departments h2 {
+    color: #004d66;
+    margin-bottom: 20px;
+}
+
+.department-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.department-list li {
+    background-color: #009688;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    padding: 40px 20px;
+    background-color: #e7f3f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #004d66;
+    margin-bottom: 20px;
+}
+
+.testimonial-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.testimonial-box p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-box span {
+    font-weight: bold;
+    color: #004d66;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #004d66;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
